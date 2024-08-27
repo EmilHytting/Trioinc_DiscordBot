@@ -106,7 +106,7 @@ namespace TrioincBot.Commands
             }
         }
 
-        [Command("bot-info")]
+        [Command("botinfo")]
         public async Task Info(CommandContext ctx)
         {
             var embed = new DiscordEmbedBuilder
